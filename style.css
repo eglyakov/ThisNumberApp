@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(8, 12, 32);
+    background-image: url(fon-numbers.png);
+    background-size: contain;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #fff;
+    min-height: 800px;
+}
+
+.thisNumber {
+    width: 95%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 600px;
+}
+
+.title {
+    margin: 20px 0;
+    color: #fff;
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 0 0 7px rgb(255, 251, 17);
+    text-transform: uppercase;
+}
+
+.type_info {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(255, 251, 17, 0.7);
+    border-radius: 4px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.type_info p {
+    text-shadow: 0 0 5px rgb(8, 12, 32);
+    font-size: 26px;
+}
+
+.type_info input,
+.type_info select,
+.type_info .button {
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 2px solid rgb(8, 12, 32);
+}
+
+.type_info input {
+    border-radius: 4px 0 0 4px;
+    border-right: white;
+}
+
+.type_info .button {
+    border-radius: 0 4px 4px 0;
+    border-left: white;
+    margin-left: -8px;
+    background-color: white;
+}
+
+.facts {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgba(255, 251, 17, 0.7);
+    border-radius: 4px;
+}
+
+.facts p {
+    text-shadow: 0 0 5px rgb(8, 12, 32);
+    font-size: 26px;
+    text-align: center;
+}
+
+.facts_item {
+    padding: 10px;
+    background-color: rgb(8, 12, 32);
+    border-radius: 4px;
+}
+
+.facts_item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+    .logo img {
+        width: 310px;
+    }
+
+    .type_info {
+        flex-direction: column;
+    }
+
+    .type_info input,
+    .type_info_value {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 340px) {
+    .type_info input {
+        width: 120px;
+    }
+}
