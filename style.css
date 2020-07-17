@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(8, 12, 32);
+    background-color: rgb(8, 12, 42);
     background-image: url(fon-numbers.png);
     background-size: contain;
     font-family: 'Montserrat', sans-serif;
@@ -30,7 +30,7 @@ body {
 .title {
     margin: 20px 0;
     color: #fff;
-    font-size: 60px;
+    font-size: 80px;
     font-style: italic;
     text-align: center;
     text-shadow: 0 0 7px rgb(255, 251, 17);
@@ -50,7 +50,7 @@ body {
 }
 
 .type_info p {
-    text-shadow: 0 0 5px rgb(8, 12, 32);
+    text-shadow: 0 0 5px rgb(8, 12, 42);
     font-size: 26px;
 }
 
@@ -60,7 +60,8 @@ body {
     font-size: 22px;
     padding: 5px;
     border-radius: 4px;
-    border: 2px solid rgb(8, 12, 32);
+    border: 2px solid rgb(8, 12, 42);
+    color: rgb(8, 12, 42);
 }
 
 .type_info input {
@@ -83,14 +84,14 @@ body {
 }
 
 .facts p {
-    text-shadow: 0 0 5px rgb(8, 12, 32);
+    text-shadow: 0 0 5px rgb(8, 12, 42);
     font-size: 26px;
     text-align: center;
 }
 
 .facts_item {
     padding: 10px;
-    background-color: rgb(8, 12, 32);
+    background-color: rgb(8, 12, 42);
     border-radius: 4px;
 }
 
